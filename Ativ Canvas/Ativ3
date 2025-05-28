@@ -1,0 +1,43 @@
+const leia = require("readline-sync")
+
+let codigo = leia.questionInt("Digite o código do produto (1 a 6): ")
+let quantidade = leia.questionInt("Digite a quantidade comprada: ")
+
+let produto = ""
+let preco = 0
+
+switch (codigo) {
+  case 1:
+    produto = "Cachorro Quente"
+    preco = 10.0
+    break
+  case 2:
+    produto = "X-Salada"
+    preco = 15.0
+    break
+  case 3:
+    produto = "X-Bacon"
+    preco = 18.0
+    break
+  case 4:
+    produto = "Bauru"
+    preco = 12.0
+    break
+  case 5:
+    produto = "Refrigerante"
+    preco = 8.0
+    break
+  case 6:
+    produto = "Suco de Laranja"
+    preco = 13.0
+    break
+  default:
+    console.log("Digite um número entre 1 e 6.")
+    break
+}
+
+if (codigo >= 1 && codigo <= 6) {
+  let total = preco * quantidade
+  console.log(`\nProduto: ${produto}`)
+  console.log(`Valor total: R$ ${total.toFixed(2)}`)
+}
