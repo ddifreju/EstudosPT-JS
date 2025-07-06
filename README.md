@@ -1,4 +1,4 @@
-# AtividadesGeneration: Fundamentos Essenciais de Lógica de Programação
+# Atividades de prática: Fundamentos da Lógica de Programação
 
 Este repositório é uma coletânea abrangente de exercícios e projetos desenvolvidos com o objetivo de **aplicar e consolidar os conhecimentos básicos de lógica de programação**. Criado durante a fase inicial dos meus estudos em desenvolvimento, ele serve como um **caderno prático** e um registro da minha jornada para fixar conceitos essenciais.
 
